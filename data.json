@@ -1,3 +1,19 @@
 {
-  "todo-list": []
+  "todo-list": [
+    {
+      "title": "Math",
+      "body": "Vanilla Javasriptttt",
+      "id": 1
+    },
+    {
+      "title": "Math",
+      "body": "Vanilla Javasriptttt",
+      "id": 2
+    },
+    {
+      "title": "C.R.E",
+      "body": "Vanilla Javasriptttt",
+      "id": 3
+    }
+  ]
 }
