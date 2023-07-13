@@ -15,7 +15,6 @@ export const Navbar = () => {
   };
 
   return (
-
     <nav className="navbar">
       <button
         className={`navbar-toggle ${isMenuOpen ? "open" : ""}`}
@@ -23,24 +22,29 @@ export const Navbar = () => {
       >
         <span className="navbar-toggle-icon"></span>
       </button>
-      <div className="navbar-menu-wrapper" >
-      <ul className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
-        {/* <NavLink style={navLinkStyles} to="/">
+      <div className="navbar-menu-wrapper">
+        <ul className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
+          {/* <NavLink style={navLinkStyles} to="/">
           Login
         </NavLink> */}
-      <li>  <NavLink style={navLinkStyles} to="/dashboard">
-          Dashboard
-        </NavLink>
-        </li>
-        <li>  <NavLink style={navLinkStyles} to="/home">
-          Home
-        </NavLink>
-        </li>
-        <li><NavLink style={navLinkStyles} to="/schedule">
-          Schedule
-        </NavLink>
-        </li>
-      </ul>
+          <li>
+            {" "}
+            <NavLink style={navLinkStyles} to="/dashboard">
+              Dashboard
+            </NavLink>
+          </li>
+          <li>
+            {" "}
+            <NavLink style={navLinkStyles} to="/home">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink style={navLinkStyles} to="/schedule">
+              Schedule
+            </NavLink>
+          </li>
+        </ul>
       </div>
     </nav>
   );
