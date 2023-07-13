@@ -42,10 +42,10 @@ export const Login = () => {
         </span>
         <br />
 
-        <button>        <li>
+        <button>        <a>
           {" "}
           <NavLink to="/home">Login</NavLink>
-        </li></button>
+        </a></button>
         <p>
           Don't have an account? <a to="/home">Register</a>
         </p>
