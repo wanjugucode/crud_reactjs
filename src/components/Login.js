@@ -44,7 +44,7 @@ export const Login = () => {
 
         <button>        <a>
           {" "}
-          <NavLink to="/home">Login</NavLink>
+          <NavLink to="/dashboard">Login</NavLink>
         </a></button>
         <p>
           Don't have an account? <a to="/home">Register</a>

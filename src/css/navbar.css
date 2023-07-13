@@ -1,4 +1,98 @@
-.navbar {
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color:  #69325f;
+  color: #fff;
+  width: 25%;
+  max-width: 10rem;
+  justify-content: space-between;
+  overflow: hidden; 
+  padding-bottom: 100vh;
+
+}
+li{
+
+      margin-bottom: 1rem; 
+      list-style: none;
+      align-items:start;
+   
+      
+    }
+    
+    .nav-toggler {
+      display: none;
+    } 
+    
+     /* .nav-toggle-icon {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background-color: #fff;
+      margin-bottom: 4px;
+    }  */
+    /* .nav-menu {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        margin-top: 65%;
+        align-self: flex-start;
+    } */
+
+
+
+@media (max-width: 991px) {
+
+.nav {
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  padding-bottom: 1 rem;
+  background-color: #69325f;
+
+}
+
+.nav-brand {
+  margin-bottom: 10px;
+}
+
+.nav-toggler {
+  display: block;
+
+}
+
+.nav-nav {
+  display: none;
+  margin-top: 10px;
+}
+
+.nav-nav.open {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.nav-menu-item {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.nav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,8 +100,8 @@
     background-color:  #69325f;
     color: #fff;
     width: 25%;
+    height: 100vh;
     max-width: 10rem;
-    height: 100vh; 
     justify-content: space-between;
     overflow: hidden; 
 
@@ -15,71 +109,42 @@
 li{
  
         margin-bottom: 1rem; 
-      }
+      } */
 
 
-.navbar-toggle {
-  display: none;
-}
-
-.navbar-toggle-icon {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 4px;
-}
-
-.navbar-menu {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin: 0;
-    margin-top: 65%;
-    align-self: flex-start;
-}
-
-
-
-
-@media (max-width: 991px) {
-  .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
-
-  }
-
-  .navbar-menu {
-    display: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .navbar-menu.open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #69325f;
-    padding: 0.5rem;
-  }
-
-  .navbar-menu-item {
-    margin: 0;
-    margin-bottom: 1rem;
-    
-  }
-
-  .navbar-menu-item:last-child {
-    margin-bottom: 0;
-  }
-
+/* @media (max-width: 991px) {
   
-}
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .nav-brand {
+    margin-bottom: 10px;
+  }
+
+  .nav-toggler {
+    display: block;
+
+  }
+
+  .nav-nav {
+    display: none;
+    margin-top: 10px;
+  }
+
+  .nav-nav.open {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .nav-menu-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+} */
 
   
 
