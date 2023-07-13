@@ -5,7 +5,6 @@ import "./css/schedule.css";
 import "./css/navbar.css";
 import "./css/navmain.css";
 
-
 import { Routes, Route } from "react-router-dom";
 import { Login } from "./components/Login";
 import { Dashboard } from "./components/Dashboard";
