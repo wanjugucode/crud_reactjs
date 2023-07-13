@@ -31,8 +31,8 @@ export const Login =()=>{
             <br/>
 
             <button>Login</button>
-            <p>Don't have an account? <a href="/home">Register</a></p>
-            <p>Forgot password? <a href="/home">Reset</a></p>
+            <p>Don't have an account? <a href={home}>Register</a></p>
+            <p>Forgot password? <a  to="/home">Reset</a></p>
 
             </form>
         </div>
